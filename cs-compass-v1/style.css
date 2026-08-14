@@ -1,0 +1,151 @@
+/* STYLE SECTIONING TAGS */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #F8F6FF;
+  text-align: center;
+  color: #4A5568;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#portBody{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+/* STYLE TEXT */
+
+#homeMe{
+  font-size: 24px;
+  font-family: cursive;
+  color: #4A5568;
+  line-height: 1.7;
+}
+
+header{
+  background-color: #ddf6ff;
+  margin:0;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+main{
+  margin-bottom:5%;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+h1{
+  color:#7C6EE6;
+  font-size:69px;
+  padding-top:0.9em;
+  
+  font-family: "Poppins";
+  font-weight:700;
+  text-align:center;
+}
+
+h6{
+  font-size: 15px;
+  font-style: italic;
+  font-family: fantasy;
+  padding-bottom:4em;
+}
+h2{
+  text-decoration: underline;
+  text-decoration-color: #fff9a1;
+  color:#2b0052;
+  font-size:38px;
+  font-family:"Poppins";
+  font-weight:600;
+  font-variant-position: valid;
+  padding-top:1.2em;
+  padding-bottom:0.3em;
+  
+  
+}
+
+h3{
+  color:#2D3748;
+  font-size:20px;
+  font-family:"Poppins", Arial, sans-serif;
+  font-weight:600;
+  padding-top:1em;
+  text-decoration: underline;
+  
+}
+
+p{
+  color:#4A5568;
+  font-size:16px;
+  line-height:1.7;
+  font-family:Verdana, Geneva, sans-serif;
+  padding-top:0.3em;
+}
+
+/* LINKS */
+
+a{
+  color:#2D3748;
+  text-decoration:none;
+  font-weight:600;
+}
+
+a:hover{
+  color:#7C6EE6;
+  text-decoration:underline;
+}
+
+/* STYLE IMAGES */
+
+.homepic{
+  border-radius:49%;
+  object-fit:cover;
+}
+
+img{
+  width:350px;
+  height:350px;
+  border:10px dashed white;
+  margin-bottom:2em;
+}
+
+
+
+
+/* STYLE NAVBAR */
+ul{
+  list-style-type: none;
+  background-color: #2b0052;
+  padding: 1em;
+}
+
+
+li{
+  display: inline;
+  color: white;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 1em;
+  color: #F8F6FF;
+}
+
+li a:hover{
+  background-color: #fff9a1;
+}
+
+.pro{
+  background-color: #FAE0FF;
+}

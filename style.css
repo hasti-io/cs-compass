@@ -106,17 +106,12 @@ a:hover{
 }
 
 /* STYLE IMAGES */
-
-.homepic{
-  border-radius:49%;
-  object-fit:cover;
-}
-
-img{
-  width:350px;
-  height:350px;
-  border:10px dashed white;
-  margin-bottom:2em;
+img {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
 }
 
 
